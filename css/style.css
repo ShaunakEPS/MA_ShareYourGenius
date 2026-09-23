@@ -1,0 +1,26 @@
+    nav {
+        background-color: #333;
+        }
+        nav ul {
+        list-style-type: none; /* removes bullet points */
+        margin: 0;
+        padding: 0;
+        display: flex;
+        }
+        nav a {
+        color: white;
+        text-decoration: none; /*removes underline*/
+        padding: 14px 20px; 
+        display: block;
+        transition: 0.5s;
+        }
+        /* Hover effect */
+        nav a:hover {
+        background-color: #f4f402;
+        color: #ee0202;
+        }
+        /* Active (current page) link */
+        nav a.active {
+        background-color: #04AA6D;  /* a green highlight */
+        font-weight: bold;          /* make it stand out */
+        }
