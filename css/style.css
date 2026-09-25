@@ -11,8 +11,23 @@
     font-size: 12px;
     color: purple;
 }
+img {
+    float: right;
+}
+.floater {
+    float: right;
+}
+h1 {
+    font-size: 40px;
+}
+.b {
+    color: blue;
+ }
+.g {
+    color: green;
+}
     nav {
-        background-color: #333;
+        background-color: green;
         }
         nav ul {
         list-style-type: none; /* removes bullet points */
@@ -21,7 +36,7 @@
         display: flex;
         }
         nav a {
-        color: white;
+        color: blue;
         text-decoration: none; /*removes underline*/
         padding: 14px 20px; 
         display: block;
@@ -29,11 +44,12 @@
         }
         /* Hover effect */
         nav a:hover {
-        background-color: #f4f402;
-        color: #ee0202;
+        background-color: blue;
+        color: green;
+        font-weight: bold;
         }
         /* Active (current page) link */
         nav a.active {
-        background-color: #04AA6D;  /* a green highlight */
-        font-weight: bold;          /* make it stand out */
+        background-color: black;  /* a green highlight */
+        color: white
         }
