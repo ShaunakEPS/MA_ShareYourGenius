@@ -1,3 +1,16 @@
+.standard-formatting {
+    color: purple;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.small_text {
+    font-size: 10px;
+    color: purple;
+}
+.fuiser_mineu {
+    font-size: 12px;
+    color: purple;
+}
     nav {
         background-color: #333;
         }
@@ -12,7 +25,7 @@
         text-decoration: none; /*removes underline*/
         padding: 14px 20px; 
         display: block;
-        transition: 0.5s;
+        transition: 0.7s;
         }
         /* Hover effect */
         nav a:hover {
