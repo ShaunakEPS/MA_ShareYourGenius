@@ -26,6 +26,23 @@ h1 {
 .g {
     color: green;
 }
+.column {
+    float: left;
+    padding: 5px;
+}
+.row {
+    content: "";
+    clear: both;
+    display: table;
+}
+.row2 {
+    content: "";
+    clear: both;
+    display: table;
+}
+body {
+    background-image: url("../images/Background.png");
+}
     nav {
         background-color: green;
         }
